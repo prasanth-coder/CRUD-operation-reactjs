@@ -1,0 +1,78 @@
+*{
+  font-size: 20px;
+}
+.card{
+   border : 1px solid black;
+   border-radius: 6px;
+   padding : 10px;
+   margin :5px auto;
+   width:300px;
+   text-align: center;
+   font-size: 25px;
+   min-height : 50px;
+
+}
+button{
+  border-radius: 6px;
+}
+
+.card-display{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.form{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding : 10px;
+  margin :5px auto;
+  text-align: center;
+  width:300px;
+
+}
+.form input{
+  border-bottom: 1px solid black;
+  border-top: none;
+  border-left: none;border-right: none;
+
+  padding: 5px; 
+}
+.form input:focus{
+  outline: none;
+}
+
+.form button{
+  border : 1px solid black;
+  padding: 5px;
+  margin-top: 7px;
+  
+}
+.deletebtn{
+  
+  padding : 10px;
+  margin :5px auto;
+  text-align: center;
+  width:300px;
+
+}
+.deletebtn button{
+  padding:10px;
+  border:1px solid black;
+}
+
+.errormsg{
+  padding : 10px;
+  margin :5px auto;
+  text-align: center;
+  width:350px;
+  color:red;
+  font-size: 30px;
+  
+}
+
+.cancel{
+  border : none;
+  background:none;
+  color:red;
+}
